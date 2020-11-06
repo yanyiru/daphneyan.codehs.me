@@ -1,0 +1,114 @@
+#tableSection{
+    background-color: #8FBC8F;
+    width: 100%;
+    margin:auto;
+    font-family: Courier;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size:20px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    
+}
+
+body{
+    font-family: Courier;
+}
+
+th{
+    height:50px;
+}
+
+th a{
+    padding: 97px;
+    text-align:center;
+        color:white;
+}
+
+#tableSection td{
+    text-align: center;
+}
+
+animation{
+    min-height: 100px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    color:white;
+    border-bottom: 4px solid black;
+}
+
+
+header a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+
+}
+
+#name{
+    text-align: center;
+    background-image: url("https://codehs.com/uploads/739cb3504d92a6eb730d053e9336ae65");
+    min-height:40px;
+}
+
+header a:hover{
+    color: black;
+    font-style: bold;
+}
+
+.highlight a{
+    color: black;
+}
+
+#showcase{
+    min-height: 500px;
+    color: black;
+    text-align: left;
+    padding-top:30px;
+    background-image: url("https://codehs.com/uploads/739cb3504d92a6eb730d053e9336ae65");
+    padding-left: 500px;
+    padding-right: 500px;
+    border-bottom: 4px solid black;
+    font-size:18px;
+}
+
+footer{
+    min-height: 100px;
+    background-color: #8FBC8F;
+    text-align: center;
+    padding-top: 20px;
+    color:white;
+    border-bottom: 4px solid black;
+    font-family: Courier;
+    text-decoration:none;
+}
+
+.gif{
+
+    width: 80%;
+    margin: auto;
+}
+
+#boxes{
+    min-height: 30px;
+    color: black;
+    text-align: left;
+    padding-top:30px;
+    background-color:white;
+    border-bottom: 4px solid black;
+    font-size:18px;
+}
+
+#luoxiaohei{
+    height:70px;
+    animation-name:run;
+    animation-duration:20s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes run{
+    from{transform:translateX(1850px);}
+    to{transform:translateX(-50px);}
+}
